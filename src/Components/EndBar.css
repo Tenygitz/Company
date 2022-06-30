@@ -1,0 +1,38 @@
+.EndBar{
+    height: 100px;
+    text-align: center;
+    background-color: #2E3191;
+    margin-top: 30px;
+    
+}
+@media  screen and (max-width:767px){
+    .EndBar{
+        height: 30px;
+        text-align: center;
+        background-color: #2E3191;
+        margin-top: 5px;
+        
+    }
+}
+
+.EndBar-content {
+    margin-top: 30px;
+    border: 2px solid white;
+    padding: 30px;
+    background-color: #2E3191;
+    color: white;
+    max-width: 1200px;
+    margin: auto;
+    
+}
+@media  screen and (max-width:767px){
+    .EndBar-content {
+        margin-top:5px;
+        border: 2px solid white;
+        padding: 4px 8px;
+        background-color: #2E3191;
+        color: white;
+        max-width: 500px;
+        margin: auto;
+      
+}}

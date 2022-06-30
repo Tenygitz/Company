@@ -1,0 +1,33 @@
+.topbar{
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+}
+@media screen and (max-width:767px){
+    .topbar{
+        display: none;
+    }
+}
+
+.topbar-info{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+    
+}
+.topbar-content1 {
+    display: flex;
+    margin-left: 100px;
+    margin-top: 20px;
+    
+}
+.topbar-content1 span{
+    color: #2E3191;
+}
+.topbar-content1 svg{
+    margin-right: 10px;
+}
+.topbar-content1 h3{
+    padding-right: 20px;
+    color: #505050;
+}

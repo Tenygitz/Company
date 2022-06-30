@@ -1,0 +1,85 @@
+.LatestSection1{
+    
+     height: 105vh;
+ }
+ @media screen and (max-width:767px){
+    .LatestSection1{
+    
+        height: 120vh;
+    }
+ }
+ .LatestSection1 h1{
+     text-align: center;
+     padding-top: 70px;
+     padding-bottom: 50px;
+ }
+ @media screen and (max-width:767px){
+    .LatestSection1 h1{
+        
+        padding-top: 20px;
+        padding-bottom: 25px;
+    }
+ }
+ 
+ .card{
+     display: flex;
+     margin-left: 150px;
+     margin-right: 150px;
+ }
+ @media screen and (max-width:767px){
+    .card{
+        display: block;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+ }
+ .card-Content img{
+     width: 300px;
+ height: 200px;
+ object-fit: cover;
+ }
+ .card-Content{
+    margin-right: 50px;
+ }
+ .card-Content-info1{
+     width: 300px;
+     height: 180px;
+     background-color: #FFFFFF;
+     padding: 10px;
+     color: #777777;
+ }
+ .card-Content-info1 p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+ }
+ .card-Content-info1 svg{
+     margin-right: 10px;
+    
+ }
+ .card-Content-info1 h3{
+     margin-top: 10px;
+     margin-bottom: 10px;
+ }
+ .card-Content-info1 h5{
+     opacity: 0.8;
+ }
+  .readBtn{
+  border: none;
+  text-transform: uppercase;
+  color: #7A8486;
+  background-color: transparent;
+ }
+ .button{
+     display: flex;
+     align-items: center;
+ }
+ .button .moreBtn{
+     margin: auto;
+     margin-top: 50px;
+     padding: 15px 25px;
+     border-radius: 10px;
+     background-color: #2E3191;
+     color: #FFFFFF;
+     border: none;
+     font-size: 16px;
+ }

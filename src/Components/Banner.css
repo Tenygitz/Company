@@ -1,0 +1,63 @@
+.banner{
+    height: 100vh;
+    background-color: gainsboro;
+    
+}
+@media screen and (max-width:767px){
+    .banner{
+        display: none;
+    }
+}
+.headers{
+    display: flex;
+    justify-content: space-around;
+}
+.headers .logo h1{
+    
+    padding-left: 30px;
+    color: #2E3191;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    margin-top: 30px
+
+}
+.nav li{
+    margin: 0 20px;
+    color: #FFFFFF;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+.nav li:hover{
+    color: #2E3191;
+}
+.aside{
+    margin-left: 20px;
+    position: absolute;
+    top: 50%;
+}
+.aside h1{
+    color: rgb(255, 247, 247);
+    margin-bottom: 20px;
+}
+.aside h1:hover{
+    border: 2px solid white;
+}
+.sectionImg{
+    
+    right: o;
+    top:10%;
+    margin-left: 400px;
+    margin-top: 100px;
+  
+}
+.sectionImg img{
+    width: 950px;
+    height: 600px;
+}

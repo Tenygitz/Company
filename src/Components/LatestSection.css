@@ -1,0 +1,125 @@
+.LatestSection{
+   background-color:#F2F2F2;
+    height: 110vh;
+}
+@media screen and (max-width:767px){
+    .LatestSection{
+        
+         height: 150vh;
+     }
+}
+.LatestSection h1{
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+@media screen and (max-width:767px){
+    .LatestSection h1{
+       
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+.card{
+    display: flex;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+@media screen and (max-width:767px){
+    .card{
+        display: block;
+       
+    }
+    
+}
+
+
+.card-Content img{
+    width: 300px;
+height: 200px;
+object-fit: cover;
+}
+@media screen and (max-width:767px){
+    .card-Content img{
+        width: 200px;
+    height: 200px;
+    object-fit: cover;
+    }
+}
+
+
+.card-Content{
+   margin-right: 50px;
+}
+.card-Content-info{
+    width: 300px;
+    height: 140px;
+    background-color: #FFFFFF;
+    padding: 10px;
+    
+}
+@media screen and (max-width:767px){
+    .card-Content-info{
+        width: 200px;
+        height: 140px;
+      
+        
+    }
+}
+.card-Content-info svg{
+    margin-right: 10px;
+   
+}
+.card-Content-info h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.card-Content-info h5{
+    opacity: 0.8;
+}
+ .readBtn{
+ border: none;
+ text-transform: uppercase;
+ color: #7A8486;
+ background-color: transparent;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+}
+@media screen and (max-width:767px){
+    .button{
+        display: block;
+       
+    }
+}
+.button .moreBtn{
+    margin: auto;
+    margin-top: 50px;
+    padding: 15px 25px;
+    border-radius: 10px;
+    background-color: #2E3191;
+    color: #FFFFFF;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+@media screen and (max-width:767px){
+    .button .moreBtn{
+        margin: auto;
+        margin-top: 10px;
+        padding: 5px 10px;
+        border-radius: 10px;
+        background-color: #2E3191;
+        color: #FFFFFF;
+        border: none;
+        font-size: 16px;
+        cursor: pointer;
+    }
+}
+.button .moreBtn:hover{
+    background-color: black;
+    color: #2E3191;
+}
